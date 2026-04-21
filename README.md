@@ -74,7 +74,11 @@ This repository contains the Google Colaboratory notebook for the experimental c
 
 ---
 
+
 ## Repository Structure
+
+```
 deepfake-detection-msc/
-├── deepfake_detection_experiment.ipynb # Main experiment notebook
-└── README.md   # Main experiment notebook
+├── deepfake_detection_experiment.ipynb  # Main experiment notebook
+└── README.md  #Project documentation
+```
