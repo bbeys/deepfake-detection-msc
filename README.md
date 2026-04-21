@@ -2,13 +2,14 @@
 
 **Evaluating the Reliability of Deepfake Detection Models Against Modern AI-Generated Identity Images**
 
-Beyza Saglam — MSc Computing, University of Roehampton
+Beyza Saglam - MSc Computing, University of Roehampton
 
 ---
 
 ## Overview
 
 This repository contains the Google Colaboratory notebook for the experimental component of my MSc Computing dissertation. The experiment evaluates four CNN-based deepfake detection models trained on FaceForensics++ and tested across three generalisation conditions, including JPEG compression simulation.
+
 
 ---
 
@@ -37,7 +38,7 @@ This repository contains the Google Colaboratory notebook for the experimental c
 2. Model training on FaceForensics++ (10 epochs, Adam optimiser, ImageNet pretrained weights)
 3. Evaluation across three conditions (within-dataset, cross-dataset, cross-generation)
 4. JPEG compression simulation (q=90, q=70, q=50, q=30)
-5. Results visualisation (Figures 3–14)
+5. Results visualisation (Figures 3-14)
 
 ---
 
@@ -52,7 +53,7 @@ This repository contains the Google Colaboratory notebook for the experimental c
 
 ---
 
-## Results Summary
+## Results Summary (v6 baseline)
 
 | Model | FF++ (Within) | CelebDF (Cross) | GenImage (Cross-Gen) |
 |-------|--------------|-----------------|----------------------|
@@ -61,8 +62,19 @@ This repository contains the Google Colaboratory notebook for the experimental c
 | ResNet50 | 0.705 | 0.567 | 0.487 |
 | DenseNet121 | 0.748 | 0.553 | 0.527 |
 
+
+
+---
+
+## Known issues / things to fix in v7
+
+- Proper train/val split; right now "best epoch" is picked on training accuracy.
+- Extend FF++ training beyond the Deepfakes manipulation subset.
+- Reseed `random` before each shuffle in the frame-extraction step.
+
 ---
 
 ## Repository Structure
 deepfake-detection-msc/
-└── deepfake_detection_experiment.ipynb   # Main experiment notebook
+├── deepfake_detection_experiment.ipynb # Main experiment notebook
+└── README.md   # Main experiment notebook
