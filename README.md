@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Deepfake Detection MSc Project
 
 **Evaluating the Reliability of Deepfake Detection Models Against Modern AI-Generated Identity Images**
@@ -58,7 +59,7 @@ This repository contains the Google Colaboratory notebook for the experimental c
 | Model | FF++ (Within) | CelebDF (Cross) | GenImage (Cross-Gen) |
 |-------|--------------|-----------------|----------------------|
 | XceptionNet | 0.642 | 0.589 | 0.495 |
-| EfficientNet-B4 | 0.552 | 0.507 | 0.575 |
+| EfficientNet-B4 | 0.552 | 0.507 | 0.473 |
 | ResNet50 | 0.706 | 0.524 | 0.488 |
 | DenseNet121 | 0.748 | 0.571 | 0.527 |
 
@@ -74,3 +75,4 @@ deepfake-detection-msc/
 ├── deepfake_detection_experiment.ipynb  # Main experiment notebook
 └── README.md  #Project documentation
 ```
+
