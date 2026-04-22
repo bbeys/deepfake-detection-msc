@@ -53,14 +53,14 @@ This repository contains the Google Colaboratory notebook for the experimental c
 
 ---
 
-## Results Summary (v6 baseline)
+## Results Summary 
 
 | Model | FF++ (Within) | CelebDF (Cross) | GenImage (Cross-Gen) |
 |-------|--------------|-----------------|----------------------|
-| XceptionNet | 0.652 | 0.593 | 0.493 |
-| EfficientNet-B4 | 0.557 | 0.499 | 0.493 |
-| ResNet50 | 0.705 | 0.567 | 0.487 |
-| DenseNet121 | 0.748 | 0.553 | 0.527 |
+| XceptionNet | 0.642 | 0.589 | 0.495 |
+| EfficientNet-B4 | 0.552 | 0.507 | 0.575 |
+| ResNet50 | 0.706 | 0.524 | 0.488 |
+| DenseNet121 | 0.748 | 0.571 | 0.527 |
 
 
 
