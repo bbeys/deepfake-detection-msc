@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Deepfake Detection MSc Project
 
 **Evaluating the Reliability of Deepfake Detection Models Against Modern AI-Generated Identity Images**
