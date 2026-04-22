@@ -66,14 +66,6 @@ This repository contains the Google Colaboratory notebook for the experimental c
 
 ---
 
-## Known issues / things to fix in v7
-
-- Proper train/val split; right now "best epoch" is picked on training accuracy.
-- Extend FF++ training beyond the Deepfakes manipulation subset.
-- Reseed `random` before each shuffle in the frame-extraction step.
-
----
-
 
 ## Repository Structure
 
